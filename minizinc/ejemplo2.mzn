@@ -4,7 +4,7 @@ solve maximize z;
 constraint 2*x1 + 3*x2 + 22*x3 + 19*x4 <= 300;
 constraint 3*x1 + 9*x2 + 21*x4 <= 400;
 constraint 9*x1 + 9*x2 + 4*x3  <= 520;
-constraint z = (-25500)*x1 + (-11500)*x2 + (-8000)*x3 + (-41500)*x4;
+constraint z = 2900*x1 + 26600*x2 + 17400*x3 + 3300*x4;
 constraint x1>=0;
 
 constraint x2>=0;
